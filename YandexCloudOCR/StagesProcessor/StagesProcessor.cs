@@ -2,11 +2,11 @@ using YandexCloudOCR.Common;
 
 namespace YandexCloudOCR.RecognitionStages;
 
-public class StagesProcessor<TInput, TResult> : IStagesProcessor<TInput, TResult> where TResult : StageResult<TInput>
+public class StagesProcessor<TInput, TResult> : IStagesProcessor<TInput, TResult> where TResult : StageResult<TInput, TResult>
 {
-    public Result<TResult> Process(IEnumerable<IStage<TInput, TResult>> stages, TInput input)
+    public StageResult<TInput, TResult> Process(IEnumerable<IStage<TInput, TResult>> stages, TInput input)
     {
-        Result<TResult> lastStageResult = default;
+        StageResult<TInput, TResult> lastStageResult = default;
         var lastInput = input;
         foreach (var stage in stages)
         {

@@ -2,18 +2,18 @@ using YandexCloudOCR.Common;
 
 namespace YandexCloudOCR.RecognitionStages;
 
-public interface IStagesProcessor<TInput, TResult> where TResult : StageResult<TInput>
+public interface IStagesProcessor<TInput, TResult> where TResult : StageResult<TInput, TResult>
 {
-    Result<TResult> Process(IEnumerable<IStage<TInput, TResult>> stages, TInput input);
+    StageResult<TInput, TResult> Process(IEnumerable<IStage<TInput, TResult>> stages, TInput input);
 }
 
-public interface IStage<in TInput, TResult> where TResult : StageResult<TInput>
+public interface IStage<TInput, TResult> where TResult : StageResult<TInput, TResult>
 {
     public bool ShouldContinueOnFail { get; set; }
-    Result<TResult> Process(TInput input);
+    StageResult<TInput, TResult> Process(TInput input);
 }
 
-public abstract class StageResult<TInput>
+public abstract class StageResult<TInput, TResult> : Result<TResult>
 {
     public abstract TInput ToInput();
 }
