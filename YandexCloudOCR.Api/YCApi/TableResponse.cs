@@ -17,7 +17,7 @@ public class TextAnnotation
     public string height { get; set; }
     public Blocks[] blocks { get; set; }
     public object[] entities { get; set; }
-    public Tables[] tables { get; set; }
+    public Table[] tables { get; set; }
     public string fullText { get; set; }
     public string rotate { get; set; }
 }
@@ -103,12 +103,12 @@ public class TextSegments
     public string length { get; set; }
 }
 
-public class Tables
+public class Table
 {
     public BoundingBox3 boundingBox { get; set; }
     public string rowCount { get; set; }
     public string columnCount { get; set; }
-    public Cells[] cells { get; set; }
+    public Cell[] cells { get; set; }
 }
 
 public class BoundingBox3
@@ -122,7 +122,7 @@ public class Vertices3
     public string y { get; set; }
 }
 
-public class Cells
+public class Cell
 {
     public BoundingBox4 boundingBox { get; set; }
     public string rowIndex { get; set; }

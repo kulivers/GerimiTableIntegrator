@@ -2,5 +2,5 @@
 
 public interface IImageToTableConverter
 {
-    List<List<string>> Convert(Stream stream);
+    List<List<string>> Convert(TableResponse response);
 }
