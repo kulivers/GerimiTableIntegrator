@@ -1,10 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerimiApi", "GerimiApi\GerimiApi.csproj", "{6E95F2F2-7B86-4414-9C9A-02256AFC396F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerimiApiHttpClient", "GerimiApiHttpClient\GerimiApiHttpClient.csproj", "{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexCloudOCR", "YandexCloudOCR\YandexCloudOCR.csproj", "{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexCloudOCR.Api", "YandexCloudOCR.Api\YandexCloudOCR.Api.csproj", "{56CBE91B-26F1-4F05-99AA-79FE0F3A6970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentsManagement", "DocumentsManagement\DocumentsManagement.csproj", "{4EC3EF41-9615-4DCA-A724-9D396622D276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentsManagement.Api", "DocumentsManagement.Api\DocumentsManagement.Api.csproj", "{77DC248C-2CED-4727-91E2-9B11C2A96579}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,17 +14,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6E95F2F2-7B86-4414-9C9A-02256AFC396F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E95F2F2-7B86-4414-9C9A-02256AFC396F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E95F2F2-7B86-4414-9C9A-02256AFC396F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E95F2F2-7B86-4414-9C9A-02256AFC396F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CBE91B-26F1-4F05-99AA-79FE0F3A6970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CBE91B-26F1-4F05-99AA-79FE0F3A6970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CBE91B-26F1-4F05-99AA-79FE0F3A6970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CBE91B-26F1-4F05-99AA-79FE0F3A6970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EC3EF41-9615-4DCA-A724-9D396622D276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EC3EF41-9615-4DCA-A724-9D396622D276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EC3EF41-9615-4DCA-A724-9D396622D276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EC3EF41-9615-4DCA-A724-9D396622D276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DC248C-2CED-4727-91E2-9B11C2A96579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DC248C-2CED-4727-91E2-9B11C2A96579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DC248C-2CED-4727-91E2-9B11C2A96579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DC248C-2CED-4727-91E2-9B11C2A96579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

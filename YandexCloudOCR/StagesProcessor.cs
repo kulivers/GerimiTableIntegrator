@@ -2,7 +2,7 @@ using YandexCloudOCR.Common;
 
 namespace YandexCloudOCR.RecognitionStages;
 
-public class StagesProcessor<TInput, TResult> : IStagesProcessor<TInput, TResult> where TResult : StageResult<TInput, TResult>
+public class StagesProcessor<TInput, TResult> : IStagesProcessor<TInput, TResult> where TResult : StageResult<TInput, TResult> //todo egor not here
 {
     public StageResult<TInput, TResult> Process(IEnumerable<IStage<TInput, TResult>> stages, TInput input)
     {

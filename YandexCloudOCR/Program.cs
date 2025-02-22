@@ -5,7 +5,7 @@ using YandexCloudOCR;
 
 internal class Program
 {
-    public static void Main(string[] args)
+    public static void Main(string[] args) 
     {
         var mock = "C:\\Users\\kulivers\\AppData\\Roaming\\JetBrains\\Rider2023.3\\scratches\\table.json";
         var json = File.ReadAllText(mock);

@@ -11,4 +11,9 @@
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DocumentsManagement.Api\DocumentsManagement.Api.csproj" />
+      <ProjectReference Include="..\YandexCloudOCR.Api\YandexCloudOCR.Api.csproj" />
+    </ItemGroup>
+
 </Project>
