@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerimiApi", "GerimiApi\Geri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerimiApiHttpClient", "GerimiApiHttpClient\GerimiApiHttpClient.csproj", "{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YandexCloudOCR", "YandexCloudOCR\YandexCloudOCR.csproj", "{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B6F9EC-BA5B-4E9F-9E1A-CC611AD9E762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6B45FC-F1F6-4198-A736-DD30DFB7756F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
