@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using DocumentsManagement;
 using Newtonsoft.Json;
 using YandexCloudOCR;
 using YandexCloudOCR.Services;
@@ -14,6 +15,8 @@ internal class Program
         var converter = new ImageToTableConverter();
         var table = converter.ConvertToDict(response);
         ShowTable(table);
+        var excelManager = new ExcelManager();
+        var result = excelManager.CreateStreamFromTable(table);
     }
 
     private static void ShowTable(Dictionary<int, List<string>> table)
